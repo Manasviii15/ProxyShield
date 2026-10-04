@@ -1,0 +1,15 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Local database (contains attendance data, never commit it)
+*.db
+
+# Secrets and editor/OS files
+.env
+.DS_Store
+Thumbs.db
